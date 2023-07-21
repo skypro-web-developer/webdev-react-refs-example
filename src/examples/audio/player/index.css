@@ -16,12 +16,6 @@ button,
   flex-direction: column;
 }
 
-.bar__player-progress {
-  width: 100%;
-  height: 5px;
-  background: #2e2e2e;
-}
-
 .bar__player-block {
   height: 73px;
   display: flex;

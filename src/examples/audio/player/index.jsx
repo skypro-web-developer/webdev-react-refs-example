@@ -1,11 +1,11 @@
-
-import { useRef, useState } from 'react';
-import  './index.css'
+import { useRef, useState } from "react";
+import "./index.css";
+import ProgressBar from "../ProgressBar";
 
 /**
  * https://developer.mozilla.org/ru/docs/Web/HTML/Element/audio
  * https://html5css.ru/jsref/dom_obj_audio.php
-*/
+ */
 export const Player = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
@@ -13,7 +13,7 @@ export const Player = () => {
   const handleStart = () => {
     audioRef.current.play();
     setIsPlaying(true);
-  }
+  };
 
   const handleStop = () => {
     audioRef.current.pause();
@@ -21,7 +21,6 @@ export const Player = () => {
   };
 
   const togglePlay = isPlaying ? handleStop : handleStart;
-
 
   return (
     <>
@@ -31,7 +30,7 @@ export const Player = () => {
 
       <div className="bar">
         <div className="bar__content">
-          <div className="bar__player-progress"></div>
+          <ProgressBar></ProgressBar>
           <div className="bar__player-block">
             <div className="bar__player player">
               <div className="player__controls">
@@ -116,4 +115,4 @@ export const Player = () => {
       </div>
     </>
   );
-}
+};
