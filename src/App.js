@@ -1,11 +1,11 @@
-import { Player } from "./examples/audio/player";
 import "./App.css";
+import AppRoutes from "./routes";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Player />
+        <AppRoutes></AppRoutes>
       </header>
     </div>
   );
