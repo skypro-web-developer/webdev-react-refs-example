@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/webdev-react-skypro-music-examples/static/css/main.b2ed3bf2.css",
-    "main.js": "/webdev-react-skypro-music-examples/static/js/main.422b1c9b.js",
+    "main.js": "/webdev-react-skypro-music-examples/static/js/main.acedb10d.js",
     "static/media/StratosSkyeng.woff": "/webdev-react-skypro-music-examples/static/media/StratosSkyeng.d20eb275042a513c8d55.woff",
     "static/media/StratosSkyeng.woff2": "/webdev-react-skypro-music-examples/static/media/StratosSkyeng.ec4882423f79afa46408.woff2",
     "index.html": "/webdev-react-skypro-music-examples/index.html",
     "main.b2ed3bf2.css.map": "/webdev-react-skypro-music-examples/static/css/main.b2ed3bf2.css.map",
-    "main.422b1c9b.js.map": "/webdev-react-skypro-music-examples/static/js/main.422b1c9b.js.map"
+    "main.acedb10d.js.map": "/webdev-react-skypro-music-examples/static/js/main.acedb10d.js.map"
   },
-  "entrypoints": ["static/css/main.b2ed3bf2.css", "static/js/main.422b1c9b.js"]
+  "entrypoints": [
+    "static/css/main.b2ed3bf2.css",
+    "static/js/main.acedb10d.js"
+  ]
 }
